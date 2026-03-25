@@ -4,3 +4,6 @@ Kernal:
     Kernal is critical part of operating system, It works as intermediatory b/w compurter hardware and OS.It manages the computer resources like schedulling cpu, allocating memory, device i/o, system efficiency and stability.
 Shell:
     Shell is OS user inetrface and interpretor of commands, it passes the commands gives by the user to Kernal and returns the output of the commands.
+Linux:
+    Linux is free opensource operating system, with security, stability and compatibility.
+    
