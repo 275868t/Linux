@@ -6,3 +6,43 @@ Shell:
     Shell is OS user inetrface and interpretor of commands, it passes the commands gives by the user to Kernal and returns the output of the commands.
 Linux:
     Linux is free opensource operating system, with security, stability and compatibility.
+
+Linux Installation:
+Windows os --> Oracle virtual box --> Cent Os 9 stream 
+
+Username: arjun
+psswd: Arjun@568
+
+Linux vm can be access via consol and remote
+Console: Using the installed laptop screen, connecting monitor through cables
+Remote: via putty or ssh
+
+
+windows os to windows vm --> RDP(Remote desktop protcol)
+Windows Os to Linux vm --> putty
+Mac OS to windows vm --> sharing
+Mac to Linux vm --> terminal
+Linux Os to Linux bm --> command line
+
+Note: In windows 10/above OS ,command line (cmd) has pre-installed with ssh, no need to install putty software.
+
+Root Account: Is the admin/super user of the Linux system, can have all access to all files and system
+User Account: Regular user who can have limited access on linux system 
+
+Root directory ( '/' ) : Is the very first directory in the linux system
+Root home ('/root') : Is the home directory of root user (ex: 275868, thotaa) 
+
+Command to change the password:
+Root account : passwd username --> passwd root
+
+User account: passwd
+
+Command prompt:
+A Command prompt, also referred as a prompt, which is a short text at the begining of the command line followed by a prompt symbol on a command line interface.
+Ex: [arjun@MYLinuxVM ~]$
+    # - root commond prompt symbol
+    $ - user commond prompt symbol
+
+Root command prommpt : [root@MyLinuxVM ~]#
+User command prompt: [arjun@MYLinuxVM ~]$
+Note: If lost commond prompt , user 'cntrl+c' to bring back
